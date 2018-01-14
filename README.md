@@ -1,6 +1,6 @@
 # Long-Term Future Frame Prediction
 
-We experiment with the use of latent variables in future frame prediction. Done with the LTS4 laboratory under Beril Besbinar. Details can be found in the attached report.
+We experiment with the use of latent variables for future frame prediction. Done at the LTS4 laboratory under Beril Besbinar. Details can be found in the attached report.
 
 # Contents
 ------------
@@ -48,10 +48,10 @@ What we used to run the experiments
 ------------
 
 #### Testing
-Launch `models\moving-mnist\sample-test.ipynb` and just step through all the cells. Parameters are listed and explained at the first cell.
+Launch `models\moving-mnist\sample-test.ipynb` 
 
 #### Training
-The training dataset was too large to be uploaded to github (~2GB). To train, run `datasets\gen-moving-mnist.ipynb` with the default main arguments to generate the dataset. Then run `models\moving-mnist\sample-train.ipynb`. Parameters are listed and explained at the first cell. Note that the saved model `model.ckpt` will be overwritten.
+The training dataset was too large to be uploaded to github (~2GB). To train, run `datasets\gen-moving-mnist.ipynb` with the default main arguments to generate the dataset. Then run `models\moving-mnist\sample-train.ipynb`. Note that the saved model `model.ckpt` will be overwritten.
 
 # Results
 ------------
