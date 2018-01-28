@@ -1,6 +1,6 @@
 # Long-Term Future Frame Prediction
 
-We experiment with the use of latent variables for future frame prediction. Done at the LTS4 laboratory under Beril Besbinar. Details can be found in the attached report.
+We experiment with the use of stochastic latent variables for future frame prediction. Work done at EPFL LTS4 laboratory under Beril Besbinar. Details can be found in the attached report.
 
 # Contents
 ------------
@@ -25,23 +25,24 @@ What we used to run the experiments
 # Brief Project Structure
 ------------
 
+    ├── datasets                       : Directory the scripts to generate the dataset
+    │   ├── gen-moving-mnist.ipynb     : Script to generate the moving-mnist dataset
+    |
     ├── models                         : Directory containing the scripts and pre-trained models
     │   ├── moving-mnist  
     │       ├── sample-train.ipynb     : Script to train
     │       ├── sample-test.ipynb      : Script to reproduce results
     │       ├── model.ckpt             : Tensorflow pre-trained model
     |
-    ├── datasets                       : Directory the scripts to generate the dataset
-    │   ├── gen-moving-mnist.ipynb     : Script to generate the moving-mnist dataset
+    |── others                         : Directory containing all other experiments, kept for reference
     |
     ├── results                        : Directory containing all results in .gif format
     │   ├── moving-mnist
     │       ├── 2                      : Directory containing long-term prediction results for the moving-mnist with 2 digits
     |
-    ├── others                         : Directory containing all other experiments (same structure as models)
-    ├── Report.pdf                     : Report in pdf
-    ├── README.md                      : The README guideline and explanation for our project.
-    |
+    |── README.md                      : The README guideline and explanation for our project.
+    ├── Report.pdf                     : Report
+    ├── Slides.pptx                    : Slides
 
 # Usage
 ------------
