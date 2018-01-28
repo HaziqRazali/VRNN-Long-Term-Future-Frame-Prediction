@@ -12,7 +12,6 @@ We experiment with the use of latent variables for future frame prediction. Done
     * [Out of Domain Runs (1 input object)](#out-of-domain-runs-1-input-object)
     * [Out of Domain Runs (3 input objects)](#out-of-domain-runs-3-input-objects)
     * [Generation Diversity](#generation-diversity)
-    * [Latent Space](#latent-space)
 
 # Requirements
 ------------
@@ -40,7 +39,7 @@ What we used to run the experiments
     │       ├── 2                      : Directory containing long-term prediction results for the moving-mnist with 2 digits
     |
     ├── others                         : Directory containing all other experiments (same structure as models)
-    ├── report.pdf                     : Report in pdf
+    ├── Report.pdf                     : Report in pdf
     ├── README.md                      : The README guideline and explanation for our project.
     |
 
