@@ -25,16 +25,18 @@ What we used to run the experiments
 # Brief Project Structure
 ------------
 
-    ├── datasets                       : Directory the scripts to generate the dataset
+    ├── datasets                       : Directory containing the scripts to generate the dataset
     │   ├── gen-moving-mnist.ipynb     : Script to generate the moving-mnist dataset
     |
     ├── models                         : Directory containing the scripts and pre-trained models
     │   ├── moving-mnist  
     │       ├── sample-train.ipynb     : Script to train
     │       ├── sample-test.ipynb      : Script to reproduce results
-    │       ├── model.ckpt             : Tensorflow pre-trained model
+    │       ├── epoch-100.data         : Tensorflow pre-trained model
+    │       ├── epoch-100.index        
+    │       ├── epoch-100.meta         
     |
-    |── others                         : Directory containing all other experiments, kept for reference
+    |── others                         : Directory containing all other experiments kept for reference
     |
     ├── results                        : Directory containing all results in .gif format
     │   ├── moving-mnist
